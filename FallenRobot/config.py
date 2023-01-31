@@ -1,17 +1,17 @@
 class Config(object):
     LOGGER = True
 
-    API_ID = 
-    API_HASH = ""
-    TOKEN = ""
-    OWNER_ID = 
-    OWNER_USERNAME = ""
-    SUPPORT_CHAT = ""
-    JOIN_LOGGER = ()
-    EVENT_LOGS = ()
+    API_ID = "23890262"
+    API_HASH = "da7e86cf57b0e6220b8a9e0aed228a68"
+    TOKEN = "5841568185:AAFODqetoPeeBhBsXDyRVT7KIniZDnpWOY8"
+    OWNER_ID = "1488316798"
+    OWNER_USERNAME = "miyuki_senpai"
+    SUPPORT_CHAT = "devils_chats"
+    JOIN_LOGGER = (-1001868871195)
+    EVENT_LOGS = (-1001868871195)
 
-    SQLALCHEMY_DATABASE_URI = ""
-    MONGO_DB_URI = ""
+    SQLALCHEMY_DATABASE_URI = "postgres://oczrqkvk:p11ua8LdXcupAcFLF-ZjB3uBXVDdYhu4@suleiman.db.elephantsql.com/oczrqkvk"
+    MONGO_DB_URI = "mongodb+srv://Hetal:HetalShah@cluster0.g8xrb.mongodb.net/?retryWrites=true&w=majority"
     LOAD = []
     NO_LOAD = ["rss"]
     WEBHOOK = False
